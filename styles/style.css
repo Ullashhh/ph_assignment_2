@@ -40,7 +40,7 @@ button:hover {
 /* nav bar section  */
 
 .nav__section {
-  padding: 0 7.3rem;
+  padding: 0 12rem;
   position: sticky;
   top: 0;
   box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.35);
@@ -104,7 +104,7 @@ li a {
 .banner__section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.5)),
     url("/assets/Images/Group\ 13\ \(1\)\ \(1\).png");
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 3rem;
@@ -618,6 +618,8 @@ form button {
 
 .review p {
   margin: 0;
+  color: var(--primary-textColor);
+  
 }
 
 .review .author {
