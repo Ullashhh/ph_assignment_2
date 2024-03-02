@@ -581,43 +581,105 @@ form button {
   font-size: 1.8rem;
 }
 
+/* review section [extra section] */
+
+.review__container{
+  display: flex;
+  gap: 1rem;
+}
+
+.rating__details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback__section {
+  margin-top: 8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 3rem 8rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback__section h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.review {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.review p {
+  margin: 0;
+}
+
+.review .author {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review .date {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.review .content {
+  margin-top: 10px;
+}
+
+.review .rating {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.review .rating span {
+  color: #ff9900;
+  font-size: 24px;
+}
 
 /* footer section  */
 
-footer{
+footer {
   background: rgba(19, 19, 24, 0.05);
   margin-top: 8rem;
-  padding: 5rem 8rem
+  padding: 5rem 8rem;
 }
 
-footer h2{
+footer h2 {
   font-size: 2rem;
 }
 
-footer span{
+footer span {
   color: var(--primary-color);
 }
 
-.footer__top{
+.footer__top {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.footer__top img{
+.footer__top img {
   margin-right: 1rem;
 }
 
-
-.footer__info p{
+.footer__info p {
   text-align: center;
   padding: 0 10rem;
   line-height: 1.5rem;
   color: var(--primary-textColor);
   margin-bottom: 3rem;
 }
-.footer__icon{
+.footer__icon {
   margin: 0 auto;
   width: 70%;
   display: flex;
@@ -627,15 +689,14 @@ footer span{
   border-bottom: 1px solid rgba(128, 128, 128, 0.212);
 }
 
-.footer__icon i{
+.footer__icon i {
   color: rgb(94, 94, 94);
   font-size: 2rem;
   margin-right: 0.9rem;
   height: 3rem;
 }
 
-
-small{
+small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -817,44 +878,55 @@ small{
 
   /* form section  */
 
-  .form__section{
+  .form__section {
     margin-top: 3rem;
     padding: 0 1rem;
     display: block;
   }
 
-  .form__info{
+  .form__info {
     width: 100%;
   }
 
-  .save__section{
+  .save__section {
     width: 100%;
     margin-top: 3rem;
   }
 
-  .save__info{
+  .save__info {
     height: 70px;
     width: 10rem;
     bottom: 3rem;
   }
 
-  .save__info p{
+  .save__info p {
     font-size: 1rem;
   }
 
-  .save__info h2{
+  .save__info h2 {
     font-size: 1.2rem;
   }
 
+  /* feedback section [extra section] */
+  .review__container{
+    display: block;
+  }
+
+  .feedback__section{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
+  }
 
   /* footer section  */
 
-  footer{
+  footer {
     margin-top: 3rem;
     padding: 1rem 1rem;
   }
 
-  .footer__info p{
+  .footer__info p {
     padding: 0;
   }
 }
